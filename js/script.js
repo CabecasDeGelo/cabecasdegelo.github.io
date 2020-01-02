@@ -115,7 +115,7 @@ function pontuacao(acao){
 function situacao_jogo(baloes_inteiros){
 	if(baloes_inteiros == 0){
     window.open('vitoria.html', '_self');
-		alert('Parabéns, você quebrou o cu do Jorjasso. A Terra agora descansa em paz, sem o tarado da meia por perto.');
+		alert('Chove cidade minha de dez anos! Você quebrou o cu do Jorjasso. A Terra agora descansa em paz, sem o tarado da meia por perto.');
 		parar_jogo();
 	}
 }
