@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página Inicial | Break Jorge's Cu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body onload="iniciaJogo()">
+    <header>
+        <div class="container">
+    <div class="jumbotron">
+        <h1>Break Jorge's Cu</h1>                                                                       
+        <!--<img src="./imagens/logo_branca.jpg" alt="">-->
+    </div>
+</div>
+</header>
+
+<div class="container">
+
+    <div style="float:left;  background: #FFF; border: solid 1px #A2A2A2;">
+
+        <table border="1">
+            <tr>
+                <td>
+                    <img src="../imagens/jorjao_feliz.png"/>
+                </td>
+                <td>
+                    <span id="baloes_inteiros" style="font-size:40px;"></span>
+                </td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <td>
+                    <img src="../imagens/jorjao_triste.png"/>
+                </td>
+                <td>
+                <span id="baloes_estourados" style="font-size:40px;"></span></td>
+            </tr>
+        </table>
+        <br>
+
+        <table border="1" style="width: 140px; height: 138px;">
+            <tr>
+                <td style="background-image: url('../imagens/cronometro.png'); text-align: center;">
+                    <span id="cronometro" style="color:red; font-size: 30px; "></span>
+                </td>
+            </tr>
+        </table>
+
+</div>
+
+<div id="cenario" class="cenario">
+
+</div>
+
+
+</div>
+    <div class="tela-cheia">
+        <img src="../imagens/fullscreen.png" style="max-width:100%; max-height:100%; cursor: pointer;" alt="" id="fullscreen">
+    </div>
+    <div class="voltar"><a href="../index.html"><p><- VOLTAR</p></a></div>
+</article>
+
+
+
+<script src="../js/script.js"></script>
+</body>
+</html>
