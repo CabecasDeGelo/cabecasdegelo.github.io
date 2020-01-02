@@ -3,7 +3,7 @@
 function iniciar(){
     let nivel = document.getElementById("nivel").value
     window.location.href = 'html/jogo.html?' + nivel;
-    window.alert('3...2...1... QUEBRE O MÁXIMO DE CUS POSSÍVEIS!')
+    window.alert('3...2...1... QUEBRE O MÁXIMO DE CUS POSSÍVEL!')
 }
 
 
